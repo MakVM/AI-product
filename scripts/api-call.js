@@ -17,7 +17,7 @@ function getDateRange() {
   const now = new Date()
   const endTime = now // Current time
   const startTime = new Date(now)
-  startTime.setDate(startTime.getDate() - 7) // Last 24 hours (change this: max 7 days)
+  startTime.setDate(startTime.getDate() - 1) // Last 24 hours (change this: max 7 days)
   return {
     startTime: startTime.toISOString(),
     endTime: endTime.toISOString()
@@ -43,7 +43,7 @@ async function fetchData() {
     },
     body: JSON.stringify({
       // 🔧 CHANGE THESE FOR YOUR USE CASE:
-      entities: "finance, crypto",    // ← What to track
+      entities: "finance crypto exchange",    // ← What to track
       topic: "attack hack exploit scam fraud breach leak",               // ← What topic 
       startTime,
       endTime
