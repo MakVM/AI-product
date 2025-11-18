@@ -43,8 +43,8 @@ async function fetchData() {
     },
     body: JSON.stringify({
       // 🔧 CHANGE THESE FOR YOUR USE CASE:
-      entities: "scam",    // ← What to track
-      topic: "scam",               // ← What topic 
+      entities: "financial institutions",    // ← What to track
+      topic: "fraud",               // ← What topic 
       startTime,
       endTime
     }),
