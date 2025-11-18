@@ -43,8 +43,8 @@ async function fetchData() {
     },
     body: JSON.stringify({
       // 🔧 CHANGE THESE FOR YOUR USE CASE:
-      entities: "cloudflare",    // ← What to track
-      topic: "outage",               // ← What topic //industry: "finance",                // fixed industry
+      entities: "fraud",    // ← What to track
+      topic: "fraud",               // ← What topic 
       startTime,
       endTime
     }),
