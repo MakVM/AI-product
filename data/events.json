@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "timestamp": "2025-11-16T20:53:59.000Z",
+    "entities": "scam",
+    "topic": "scam",
+    "eventSummary": "A user on Reddit reports that a seller believes they are scamming.Sources:- https://www.reddit.com/r/paypal/comments/1oyvnnp/seller_think_that_im_scamming/"
+  },
+  {
+    "timestamp": "2025-11-16T04:55:32.000Z",
+    "entities": "scam",
+    "topic": "scam",
+    "eventSummary": "A user on Reddit asks if it's possible to recover money after being scammed.Sources:- https://www.reddit.com/r/CoinBase/comments/1oxnxdp/are_you_able_to_get_money_back_if_youve_been/"
+  },
+  {
+    "timestamp": "2025-11-15T10:02:07.000Z",
+    "entities": "scam",
+    "topic": "scam",
+    "eventSummary": "A user on Telegram expresses concern that a coin might be a scam.Sources:- https://t.me/binanceexchange"
+  },
+  {
+    "timestamp": "2025-11-15T06:24:25.000Z",
+    "entities": "scam",
+    "topic": "scam",
+    "eventSummary": "A message on Telegram warns users about scams and advises to delete them.Sources:- https://t.me/Nexo_fr"
+  },
+  {
+    "timestamp": "2025-11-14T08:54:59.000Z",
+    "entities": "scam",
+    "topic": "scam",
+    "eventSummary": "A user on Reddit is seeking urgent help to determine if they are being scammed.Sources:- https://www.reddit.com/r/paypal/comments/1owoljz/urgent_help_required_to_know_if_im_getting_scammed/"
+  },
+  {
+    "timestamp": "2025-11-14T05:54:53.000Z",
+    "entities": "scam",
+    "topic": "scam",
+    "eventSummary": "A user on Reddit reports a scam attempting a purchase.Sources:- https://www.reddit.com/r/paypal/comments/1owluvs/scam_attempting_purchase/"
+  },
+  {
+    "timestamp": "2025-11-13T02:26:42.000Z",
+    "entities": "scam",
+    "topic": "scam",
+    "eventSummary": "A user on Reddit warns about a potential scam.Sources:- https://www.reddit.com/r/Gemini/comments/1os16ii/looks_like_a_scam_to_be_aware_of/"
+  }
+]
