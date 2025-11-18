@@ -43,8 +43,8 @@ async function fetchData() {
     },
     body: JSON.stringify({
       // 🔧 CHANGE THESE FOR YOUR USE CASE:
-      entities: "cybersecurity",    // ← What to track
-      topic: "attack",               // ← What topic 
+      entities: "Crypto.com, PayPal, Revolut, Binance, Coinbase",    // ← What to track
+      topic: "attack, hack, exploit",               // ← What topic 
       startTime,
       endTime
     }),
