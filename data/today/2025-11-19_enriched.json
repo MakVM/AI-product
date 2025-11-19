@@ -18,10 +18,9 @@
       "eventSummary": "An actor exploited a third-party server used by a municipality to steal and leak internal documents and accessed a database containing citizen police records. This incident is pending verification.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5xm74ynkb2h",
       "severity": "High",
       "tags": [
-        "hack",
         "exploit",
-        "breach",
-        "leak"
+        "leak",
+        "breach"
       ]
     },
     {
@@ -30,14 +29,15 @@
       "eventSummary": "A data breach related to AT&T layoffs was reported.Sources:- https://www.thelayoff.com/t/1kac91zxj",
       "severity": "Medium",
       "tags": [
-        "breach"
+        "breach",
+        "leak"
       ]
     },
     {
       "timestamp": "2025-11-18T19:55:53.000Z",
       "entities": "Fortinet",
       "eventSummary": "Fortinet released security updates to patch a new FortiWeb zero-day vulnerability that threat actors are actively exploiting in attacks.Sources:- https://bsky.app/profile/bleepingcomputer.com/post/3m5wggjizzr2g",
-      "severity": "Medium",
+      "severity": "High",
       "tags": [
         "exploit",
         "hack"
@@ -45,5 +45,5 @@
     }
   ],
   "overallDayThreatScore": 87,
-  "dailyBrief": "The day saw several high-impact cyber events, including a major phone number exposure with potential exploitation by scammers or regimes, and a significant breach affecting a municipality’s internal documents and police records. Both incidents indicate active exploitation and data exposure risks. Additionally, AT&T faced a data breach related to layoffs, and Fortinet patched a zero-day vulnerability being exploited in the wild. The overall threat level is high, with multiple breaches and verified exploits targeting both public and private sectors. Organizations should remain vigilant, prioritize patching, and review data protection measures."
+  "dailyBrief": "Today's cyber events highlight a surge in high-severity incidents, with major breaches and exploits targeting sensitive data across both public and private sectors. Notable events include a large-scale phone number exposure potentially impacting millions, a verified data theft and leak involving municipal police records, and active exploitation of a Fortinet zero-day vulnerability. AT&T also reported a breach linked to layoffs, further raising the day’s risk profile. The trend indicates heightened activity by threat actors focused on data exfiltration and exploitation of vulnerabilities, warranting immediate mitigation and increased vigilance."
 }
