@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "timestamp": "2025-11-19T08:00:43.000Z",
+      "entities": "report",
+      "eventSummary": "A team warned that scammers or regimes could have exploited a flaw, noting key-reuse patterns suggesting unauthorized clients, and called it the largest documented phone number exposure. All collected data was deleted.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5xpar5umq2s",
+      "severity": "High",
+      "tags": [
+        "scam",
+        "exploit",
+        "breach",
+        "leak"
+      ]
+    },
+    {
+      "timestamp": "2025-11-19T06:59:19.000Z",
+      "entities": "Local Government",
+      "eventSummary": "An actor exploited a third-party server used by a municipality to steal and leak internal documents and accessed a database containing citizen police records. This incident is pending verification.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5xm74ynkb2h",
+      "severity": "High",
+      "tags": [
+        "hack",
+        "exploit",
+        "breach",
+        "leak"
+      ]
+    },
+    {
+      "timestamp": "2025-11-18T20:17:53.000Z",
+      "entities": "AT&T",
+      "eventSummary": "A data breach related to AT&T layoffs was reported.Sources:- https://www.thelayoff.com/t/1kac91zxj",
+      "severity": "Medium",
+      "tags": [
+        "breach"
+      ]
+    },
+    {
+      "timestamp": "2025-11-18T19:55:53.000Z",
+      "entities": "Fortinet",
+      "eventSummary": "Fortinet released security updates to patch a new FortiWeb zero-day vulnerability that threat actors are actively exploiting in attacks.Sources:- https://bsky.app/profile/bleepingcomputer.com/post/3m5wggjizzr2g",
+      "severity": "Medium",
+      "tags": [
+        "exploit",
+        "hack"
+      ]
+    }
+  ],
+  "overallDayThreatScore": 87,
+  "dailyBrief": "The day saw several high-impact cyber events, including a major phone number exposure with potential exploitation by scammers or regimes, and a significant breach affecting a municipality’s internal documents and police records. Both incidents indicate active exploitation and data exposure risks. Additionally, AT&T faced a data breach related to layoffs, and Fortinet patched a zero-day vulnerability being exploited in the wild. The overall threat level is high, with multiple breaches and verified exploits targeting both public and private sectors. Organizations should remain vigilant, prioritize patching, and review data protection measures."
+}

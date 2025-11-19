@@ -3,30 +3,24 @@
     "timestamp": "2025-11-19T08:00:43.000Z",
     "entities": "report",
     "topic": "attack hack exploit scam fraud breach leak",
-    "eventSummary": "A team warned that scammers or regimes could have exploited a flaw, noting key-reuse patterns suggesting unauthorized clients, and called it the largest documented phone number exposure, though they deleted all collected data.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5xpar5umq2s"
+    "eventSummary": "A team warned that scammers or regimes could have exploited a flaw, noting key-reuse patterns suggesting unauthorized clients, and called it the largest documented phone number exposure. All collected data was deleted.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5xpar5umq2s"
   },
   {
     "timestamp": "2025-11-19T06:59:19.000Z",
-    "entities": "report",
+    "entities": "Local Government",
     "topic": "attack hack exploit scam fraud breach leak",
-    "eventSummary": "An actor exploited a third-party server used by a municipality to steal and leak internal documents and access a database containing citizen police records. This incident is pending verification. No confidential or proprietary data was downloaded, copied, or redistributed, and sensitive details were redacted from attached screenshots.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5xm74ynkb2h- https://bsky.app/profile/hackmanac.com/post/3m5xm7bh3dl2f"
+    "eventSummary": "An actor exploited a third-party server used by a municipality to steal and leak internal documents and accessed a database containing citizen police records. This incident is pending verification.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5xm74ynkb2h"
   },
   {
     "timestamp": "2025-11-18T20:17:53.000Z",
-    "entities": "report",
+    "entities": "AT&T",
     "topic": "attack hack exploit scam fraud breach leak",
-    "eventSummary": "A data breach related to AT&T layoffs has been reported.Sources:- https://www.thelayoff.com/t/1kac91zxj"
+    "eventSummary": "A data breach related to AT&T layoffs was reported.Sources:- https://www.thelayoff.com/t/1kac91zxj"
   },
   {
     "timestamp": "2025-11-18T19:55:53.000Z",
-    "entities": "report",
+    "entities": "Fortinet",
     "topic": "attack hack exploit scam fraud breach leak",
     "eventSummary": "Fortinet released security updates to patch a new FortiWeb zero-day vulnerability that threat actors are actively exploiting in attacks.Sources:- https://bsky.app/profile/bleepingcomputer.com/post/3m5wggjizzr2g"
-  },
-  {
-    "timestamp": "2025-11-18T14:37:52.000Z",
-    "entities": "report",
-    "topic": "attack hack exploit scam fraud breach leak",
-    "eventSummary": "A scammer group has been identified on Telegram.Sources:- https://t.me/Ripple"
   }
 ]
