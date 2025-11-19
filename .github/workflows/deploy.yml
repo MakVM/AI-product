@@ -42,6 +42,7 @@ jobs:
           OPENAI_TOKEN: ${{ secrets.OPENAI_TOKEN }}
 
       - name: Merge last 7 days enriched files
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: node scripts/generate_rolling_enriched.js
 
 
