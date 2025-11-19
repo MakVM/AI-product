@@ -31,6 +31,10 @@ jobs:
         env:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
 
+      - name: Install dependencies
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: npm install
+
       - name: Generate AI Enriched Today Data
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: node scripts/daily_generate_today.js
