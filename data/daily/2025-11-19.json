@@ -1,8 +1,8 @@
 [
   {
-    "timestamp": "2025-11-18T14:37:52.000Z",
-    "entities": "report finance crypto",
-    "topic": "attack hack exploit scam fraud breach leak",
-    "eventSummary": "A scammer group has been identified on Telegram, specifically mentioning Ripple.Sources:- https://t.me/Ripple"
+    "timestamp": "2025-11-18T17:29:45.000Z",
+    "entities": "Ripple",
+    "topic": "attack, hack, exploit, scam, fraud, breach, leak",
+    "eventSummary": "A scammer group was found in social media feeds related to Ripple.Sources:- https://t.me/Ripple"
   }
 ]
