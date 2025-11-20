@@ -38,7 +38,7 @@ export default function ChartsSection({ eventFrequency, classificationDistributi
                   tickFormatter={formatDate}
                   stroke="#00ff00"
                   style={{ fontFamily: 'Space Mono, monospace', fontSize: '12px' }}
-                />
+                /> 
 
                 <YAxis 
                   stroke="#00ff00"
