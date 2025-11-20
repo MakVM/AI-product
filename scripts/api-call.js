@@ -14,15 +14,19 @@ if (!API_KEY) {
  * @returns {Object} Object with startTime and endTime ISO strings
  */
 function getDateRange() {
-  const now = new Date()
-  const endTime = now // Current time
-  const startTime = new Date(now)
-  startTime.setDate(startTime.getDate() - 1) // Last 24 hours (change this: max 7 days)
+  // TEMPORARY: fetch for a specific past date
+  const specificDate = new Date("2025-11-19"); // <--- change this
+  const endTime = new Date(specificDate);
+  endTime.setHours(23, 59, 59, 999); // end of the day
+  const startTime = new Date(specificDate);
+  startTime.setHours(0, 0, 0, 0); // start of the day
+
   return {
     startTime: startTime.toISOString(),
     endTime: endTime.toISOString()
   }
 }
+
 
 /**
  * Fetch data from the API
