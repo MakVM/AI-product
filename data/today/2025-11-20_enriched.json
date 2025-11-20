@@ -2,40 +2,29 @@
   "events": [
     {
       "timestamp": "2025-11-19T23:11:30.000Z",
-      "entities": "report",
-      "eventSummary": "Attackers are exploiting a zero-day flaw in Chrome, urging users to update Chrome immediately.Sources:- https://www.reddit.com/r/cybersecurity/comments/1p1ktpe/update_chrome_asap_attackers_are_already/",
+      "entities": "Chrome Zero-Day Exploit Urges Immediate Update",
+      "eventSummary": "Attackers are exploiting a zero-day flaw in Chrome, urging users to update Chrome immediately.",
       "severity": "High",
-      "tags": [
-        "exploit",
-        "attack",
-        "hack"
-      ]
+      "tags": "exploit",
+      "source": "https://www.reddit.com/r/cybersecurity/comments/1p1ktpe/update_chrome_asap_attackers_are_already/"
     },
     {
       "timestamp": "2025-11-19T08:00:43.000Z",
-      "entities": "report",
-      "eventSummary": "A team warned that scammers or regimes could have exploited a flaw, noting key-reuse patterns suggesting unauthorized clients, and called it the largest documented phone number exposure, though all collected data was deleted.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5xpar5umq2s",
+      "entities": "Largest Documented Phone Number Exposure via Key-Reuse Patterns",
+      "eventSummary": "A team warned that scammers or regimes could have exploited a flaw, noting key-reuse patterns suggesting unauthorized clients, and called it the largest documented phone number exposure, though all collected data was deleted.",
       "severity": "Medium",
-      "tags": [
-        "scam",
-        "fraud",
-        "leak",
-        "exploit"
-      ]
+      "tags": "leak",
+      "source": "https://bsky.app/profile/hackmanac.com/post/3m5xpar5umq2s"
     },
     {
       "timestamp": "2025-11-18T00:00:00.000Z",
-      "entities": "report",
-      "eventSummary": "An actor exploited a third-party server used by a municipality to steal and leak internal documents, and accessed a database containing citizen police records. This incident is pending verification.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5xm74ynkb2h",
+      "entities": "Municipal Server Breach and Citizen Data Leak",
+      "eventSummary": "An actor exploited a third-party server used by a municipality to steal and leak internal documents, and accessed a database containing citizen police records. This incident is pending verification.",
       "severity": "High",
-      "tags": [
-        "hack",
-        "breach",
-        "leak",
-        "exploit"
-      ]
+      "tags": "breach",
+      "source": "https://bsky.app/profile/hackmanac.com/post/3m5xm74ynkb2h"
     }
   ],
   "overallDayThreatScore": 85,
-  "dailyBrief": "Cyber threat activity remains elevated, highlighted by active exploitation of a Chrome zero-day vulnerability with widespread impact, urging immediate updates by users. Additionally, a major exposure of phone numbers linked to key-reuse flaws raised concerns over unauthorized access, although data was later deleted. A separate incident involved the theft and leak of sensitive municipal and police records via a third-party server breach. The combination of severe vulnerabilities and data exposure incidents signals a high-risk environment requiring urgent attention and mitigation."
+  "dailyBrief": "Today's cyber threat landscape is marked by two high-severity incidents: a zero-day Chrome exploit actively targeted by attackers and a municipal server breach exposing sensitive police records. Additionally, a significant phone number exposure highlights ongoing risks from flawed key management practices. Users should prioritize browser updates and monitor for public sector data leaks, as threat actors are exploiting both software vulnerabilities and misconfigured systems. The overall threat level is elevated, with active exploitation and widespread exposure risks."
 }
