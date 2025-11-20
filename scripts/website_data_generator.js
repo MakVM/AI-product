@@ -119,10 +119,10 @@ Return ONLY JSON:
     classificationDistribution
   };
 
-  await mkdir("data/website", { recursive: true });
-  await writeFile("data/website/combined.json", JSON.stringify(final, null, 2));
+  await mkdir("public/data", { recursive: true });
+  await writeFile("public/data/threat-data.json", JSON.stringify(final, null, 2));
 
-  console.log("✅ Website combined JSON generated at data/website/combined.json");
+  console.log("✅ Website combined JSON generated at public/data/threat-data.json");
 }
 
 main();
