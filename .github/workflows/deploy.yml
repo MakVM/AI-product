@@ -51,6 +51,12 @@ jobs:
         env:
           OPENAI_TOKEN: ${{ secrets.OPENAI_TOKEN }}
 
+      - name: Final Website JSON generation
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: node scripts/website_data_generator.js
+        env:
+          OPENAI_TOKEN: ${{ secrets.OPENAI_TOKEN }}
+
       - name: Commit changes
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
