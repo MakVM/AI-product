@@ -153,43 +153,40 @@
       "date": "2025-11-19",
       "events": [
         {
-          "timestamp": "2025-11-19T23:11:30.000Z",
-          "entities": "report",
-          "eventSummary": "Attackers are exploiting a zero-day flaw in Chrome, urging users to update Chrome immediately.Sources:- https://www.reddit.com/r/cybersecurity/comments/1p1ktpe/update_chrome_asap_attackers_are_already/",
+          "timestamp": "2025-11-18T20:17:53.000Z",
+          "entities": "AT&T Data Breach Related to Layoffs",
+          "eventSummary": "There is a report of a data breach related to AT&T layoffs.",
           "severity": "High",
-          "tags": [
-            "exploit",
-            "attack",
-            "hack"
-          ]
+          "tags": "breach",
+          "source": "https://www.thelayoff.com/t/1kac91zxj"
         },
         {
-          "timestamp": "2025-11-19T08:00:43.000Z",
-          "entities": "report",
-          "eventSummary": "A team warned that scammers or regimes could have exploited a flaw, noting key-reuse patterns suggesting unauthorized clients, and called it the largest documented phone number exposure, though all collected data was deleted.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5xpar5umq2s",
+          "timestamp": "2025-11-18T14:37:52.000Z",
+          "entities": "Telegram Scammer Group Reported",
+          "eventSummary": "Users are reporting a scammer group on Telegram.",
           "severity": "Medium",
-          "tags": [
-            "scam",
-            "fraud",
-            "leak",
-            "exploit"
-          ]
+          "tags": "scam",
+          "source": "https://t.me/Ripple"
         },
         {
-          "timestamp": "2025-11-18T00:00:00.000Z",
-          "entities": "report",
-          "eventSummary": "An actor exploited a third-party server used by a municipality to steal and leak internal documents, and accessed a database containing citizen police records. This incident is pending verification.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5xm74ynkb2h",
+          "timestamp": "2025-11-18T09:38:19.000Z",
+          "entities": "Crypto.com Account Hacks",
+          "eventSummary": "Users are reporting that their accounts have been hacked.",
           "severity": "High",
-          "tags": [
-            "exploit",
-            "leak",
-            "breach",
-            "hack"
-          ]
+          "tags": "hack",
+          "source": "https://www.reddit.com/r/Crypto_com/comments/1ozq37l/anyone_contacted_about_their_account_being_hacked/"
+        },
+        {
+          "timestamp": "2025-11-18T06:43:07.000Z",
+          "entities": "Incident with No Data Leakage (HackRisk.io)",
+          "eventSummary": "There are reports of an incident where no confidential or proprietary data was downloaded, copied, or redistributed, and sensitive details were redacted from attached screenshots. More details about this incident, ESIX impact score, and additional context are available on HackRisk.io.",
+          "severity": "Low",
+          "tags": "other",
+          "source": "https://bsky.app/profile/hackmanac.com/post/3m5v2zmcgqy25"
         }
       ],
-      "overallDayThreatScore": 87,
-      "dailyBrief": "The day saw a high level of cyber risk activity, with a critical zero-day exploit targeting Chrome browsers being actively leveraged by attackers, prompting urgent mitigation measures. Additionally, a significant phone number exposure incident was reported, with potential for large-scale scam and fraud activity, though the exposed data claims to have been deleted. Finally, a major breach targeting a municipality exposed sensitive internal documents and police records, highlighting ongoing threats to government infrastructure. The continued trend of zero-day exploitation and large-scale data leaks underscores a heightened alert for organizations and individuals."
+      "overallDayThreatScore": 78,
+      "dailyBrief": "Today's cyber landscape featured significant threats, including a high-severity data breach related to AT&T layoffs and widespread account hacks targeting Crypto.com users. Additionally, a medium-severity scam group was reported active on Telegram, while one incident involved no direct data loss. The day reflects high alertness with coordinated attacks and scams impacting both large organizations and individual users."
     },
     {
       "date": "2025-11-20",
