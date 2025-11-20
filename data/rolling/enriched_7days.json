@@ -83,64 +83,24 @@
       "date": "2025-11-17",
       "events": [
         {
-          "timestamp": "2025-11-17T15:53:59.000Z",
-          "entities": "report",
-          "eventSummary": "Users of DeepSeek and Qwen-based NOFX AI trading systems were affected by crypto theft and private key leaks.Sources:- https://cryptopanic.com/news/27135509/DeepSeek-Qwen-based-NOFX-AI-trading-system-users-hit-in-crypto-theft-private-key-leaks",
+          "timestamp": "2025-11-16T14:32:47.000Z",
+          "entities": "SNAP Program Massive Fraud Reapplication Requirement",
+          "eventSummary": "Everyone on SNAP will be forced to reapply to the program after massive fraud was revealed.",
           "severity": "High",
-          "tags": [
-            "hack",
-            "exploit",
-            "fraud",
-            "leak"
-          ]
+          "tags": "fraud",
+          "source": "https://twitter.com/1528943647185678336/status/1990065518510805212"
         },
         {
-          "timestamp": "2025-11-17T12:28:35.000Z",
-          "entities": "report",
-          "eventSummary": "Logitech confirmed a data breach following a Clop extortion attack.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5t4x7e6ef2f- https://www.reddit.com/r/cybersecurity/comments/1ozif2m/logitech_confirms_data_breach/",
-          "severity": "High",
-          "tags": [
-            "hack",
-            "breach",
-            "leak"
-          ]
-        },
-        {
-          "timestamp": "2025-11-17T04:20:06.000Z",
-          "entities": "report",
-          "eventSummary": "A 'Together initiative' scam has been reported.Sources:- https://www.reddit.com/r/binance/comments/1oz3awf/together_initiative_scam/",
+          "timestamp": "2025-11-16T02:43:27.000Z",
+          "entities": "DoodiPals Hack and Sharwa Finance Exploit",
+          "eventSummary": "DoodiPals experienced a hack and Sharwa Finance had an exploit.",
           "severity": "Medium",
-          "tags": [
-            "scam",
-            "fraud"
-          ]
-        },
-        {
-          "timestamp": "2025-11-10T00:00:00.000Z",
-          "entities": "report",
-          "eventSummary": "Eurofiber France disclosed a data breach discovered late last week, where hackers gained access to its ticket management system by exploiting a vulnerability and exfiltrated information.Sources:- https://bsky.app/profile/bleepingcomputer.com/post/3m5u5f2uiyo25",
-          "severity": "High",
-          "tags": [
-            "hack",
-            "breach",
-            "exploit",
-            "leak"
-          ]
-        },
-        {
-          "timestamp": "2025-07-01T00:00:00.000Z",
-          "entities": "report",
-          "eventSummary": "An attack exploited a zero-day vulnerability (CVE-2025-61882) in Oracle E-Business Suite, with preparatory activity detected in early July 2025 and initial intrusion in August.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5t422ifkl2x",
-          "severity": "High",
-          "tags": [
-            "hack",
-            "exploit",
-            "breach"
-          ]
+          "tags": "hack",
+          "source": "https://x.com/Whistleblowe007/status/1989561722823188757, https://x.com/Whistleblowe007/status/1989880725433090398"
         }
       ],
       "overallDayThreatScore": 85,
-      "dailyBrief": "Today's cyber events reveal a high-risk environment, with multiple confirmed breaches and active exploitations. Notable incidents include a major crypto theft impacting AI-powered trading systems, a data breach at Logitech following an extortion attempt, and Eurofiber France's ticket management system being compromised via a vulnerability. A zero-day exploit in Oracle E-Business Suite highlights persistent risks to enterprise software, while scam activity continues to target financial platforms. The prevalence of sophisticated attacks and data leaks signals elevated threat levels, requiring urgent attention and robust countermeasures."
+      "dailyBrief": "Significant cyber threats were observed today, dominated by a major fraud incident affecting the SNAP program, prompting widespread reapplications. This highlights serious vulnerabilities in large-scale social welfare systems. Additionally, notable hacks and exploits targeted DoodiPals and Sharwa Finance, underscoring continued risks in financial technology platforms. The day's events reflect heightened fraud and hacking activity, warranting increased vigilance across sectors."
     },
     {
       "date": "2025-11-18",
