@@ -7,6 +7,15 @@ const model = "openai/gpt-4.1";
 
 const client = new OpenAI({ baseURL: endpoint, apiKey: token });
 
+function titleCase(str) {
+  if (!str) return "";
+  return str
+    .split(" ")
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+
 async function main() {
   const todayDate = new Date().toISOString().slice(0, 10);
   const todayFile = `data/today/${todayDate}_enriched.json`;
@@ -51,7 +60,7 @@ async function main() {
     source: ev.source,
     time: ev.timestamp,
     severity: ev.severity,
-    classification: ev.tags
+    classification: ev.tags.map(t => titleCase(t))
   }));
 
   // ------------------------------------------
