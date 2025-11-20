@@ -4,8 +4,7 @@ An AI-powered product made from the [Product Kit Template](https://github.com/17
 CurrentThreat is an AI-powered cyber threat intelligence platform that automatically aggregates, enriches, and visualizes daily and weekly cybersecurity events in the fields of finance and crypto. Using real-time event data, the platform generates a daily threat score, a weekly intelligence brief, and interactive visualizations to help security analysts, researchers, and organizations monitor the cyber landscape.
 
 Developer's Telegram: @macareeena
-## 🚀 **LIVE WEBSITE** 🚀
-### https://makvm.github.io/CurrentThreat/
+
 
 ---
 
