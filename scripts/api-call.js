@@ -15,7 +15,7 @@ if (!API_KEY) {
  */
 function getDateRange() {
   // TEMPORARY: fetch for a specific past date
-  const specificDate = new Date("2025-11-19"); // <--- change this
+  const specificDate = new Date("2025-11-18"); // <--- change this
   const endTime = new Date(specificDate);
   endTime.setHours(23, 59, 59, 999); // end of the day
   const startTime = new Date(specificDate);
