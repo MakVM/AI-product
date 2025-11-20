@@ -106,44 +106,48 @@
       "date": "2025-11-18",
       "events": [
         {
-          "timestamp": "2025-11-18T20:17:53.000Z",
-          "entities": "report",
-          "eventSummary": "There is a report of a data breach related to AT&T layoffs.Sources:- https://www.thelayoff.com/t/1kac91zxj",
+          "timestamp": "2025-11-17T15:53:59.000Z",
+          "entities": "Crypto Theft and Private Key Leak in AI Trading Systems",
+          "eventSummary": "Users of DeepSeek and Qwen-based NOFX AI trading systems were affected by crypto theft and private key leaks.",
           "severity": "High",
-          "tags": [
-            "breach",
-            "leak"
-          ]
+          "tags": "leak",
+          "source": "https://cryptopanic.com/news/27135509/DeepSeek-Qwen-based-NOFX-AI-trading-system-users-hit-in-crypto-theft-private-key-leaks"
         },
         {
-          "timestamp": "2025-11-18T14:37:52.000Z",
-          "entities": "report",
-          "eventSummary": "Users are reporting a scammer group on Telegram.Sources:- https://t.me/Ripple",
+          "timestamp": "2025-11-17T12:28:35.000Z",
+          "entities": "Logitech Data Breach via Clop Extortion Attack",
+          "eventSummary": "Logitech confirmed a data breach following a Clop extortion attack.",
+          "severity": "High",
+          "tags": "breach",
+          "source": "https://bsky.app/profile/hackmanac.com/post/3m5t4x7e6ef2f"
+        },
+        {
+          "timestamp": "2025-11-17T04:20:06.000Z",
+          "entities": "'Together initiative' Scam Reported",
+          "eventSummary": "A 'Together initiative' scam has been reported.",
           "severity": "Medium",
-          "tags": [
-            "scam",
-            "fraud"
-          ]
+          "tags": "scam",
+          "source": "https://www.reddit.com/r/binance/comments/1oz3awf/together_initiative_scam/"
         },
         {
-          "timestamp": "2025-11-18T09:38:19.000Z",
-          "entities": "report",
-          "eventSummary": "Users are reporting that their accounts have been hacked.Sources:- https://www.reddit.com/r/Crypto_com/comments/1ozq37l/anyone_contacted_about_their_account_being_hacked/",
+          "timestamp": "2025-11-10T00:00:00.000Z",
+          "entities": "Eurofiber France Data Breach via Ticket System Exploit",
+          "eventSummary": "Eurofiber France disclosed a data breach discovered late last week, where hackers gained access to its ticket management system by exploiting a vulnerability and exfiltrated information.",
           "severity": "High",
-          "tags": [
-            "hack"
-          ]
+          "tags": "breach",
+          "source": "https://bsky.app/profile/bleepingcomputer.com/post/3m5u5f2uiyo25"
         },
         {
-          "timestamp": "2025-11-18T06:43:07.000Z",
-          "entities": "report",
-          "eventSummary": "There are reports of an incident where no confidential or proprietary data was downloaded, copied, or redistributed, and sensitive details were redacted from attached screenshots. More details about this incident, ESIX impact score, and additional context are available on HackRisk.io.Sources:- https://bsky.app/profile/hackmanac.com/post/3m5v2zmcgqy25- https://bsky.app/profile/hackmanac.com/post/3m5v3ip6ee62d",
-          "severity": "Low",
-          "tags": []
+          "timestamp": "2025-07-01T00:00:00.000Z",
+          "entities": "Oracle E-Business Suite Zero-Day Attack (CVE-2025-61882)",
+          "eventSummary": "An attack exploited a zero-day vulnerability (CVE-2025-61882) in Oracle E-Business Suite, with preparatory activity detected in early July 2025 and initial intrusion in August.",
+          "severity": "High",
+          "tags": "exploit",
+          "source": "https://bsky.app/profile/hackmanac.com/post/3m5t422ifkl2x"
         }
       ],
-      "overallDayThreatScore": 72,
-      "dailyBrief": "On November 18, 2025, the cyber threat landscape was marked by multiple incidents, including a significant data breach connected to AT&T layoffs and widespread reports of account hacking, both indicating elevated risk to sensitive information. Additionally, a scammer group was reported active on Telegram, highlighting persistent social engineering threats. One reported incident was assessed as low severity due to the absence of data exfiltration. Overall, the day saw a heightened threat level, with breaches and hacks as the most critical trends."
+      "overallDayThreatScore": 92,
+      "dailyBrief": "Today's cyber landscape is marked by several high-severity incidents, including critical data breaches at Logitech and Eurofiber France, exploitation of a zero-day in Oracle E-Business Suite, and widespread crypto theft affecting AI trading systems. The prevalence of sophisticated attacks and leaks, alongside persistent scams, underscores an elevated threat environment requiring immediate attention and robust defensive measures."
     },
     {
       "date": "2025-11-19",
