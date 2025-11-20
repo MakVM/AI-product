@@ -1,8 +1,17 @@
 # CurrentThreat - AI Product
 An AI-powered product made from the [Product Kit Template](https://github.com/1712n/product-kit-template) using [CPW API](https://rapidapi.com/CPWatch/api/cpw-tracker).
 
+Developer's Telegram: @macareeena
+## 🚀 **LIVE WEBSITE** 🚀
+### https://makvm.github.io/CurrentThreat/
 
-# Product Kit Template
+### Use case
+
+
+### Features
+
+
+## Product Kit Template
 
 Auto-fetch data from CPW API and build your product on top.
 
