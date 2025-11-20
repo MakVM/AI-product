@@ -25,16 +25,17 @@ For each event, assign:
 - severity: Low, Medium, or High
 - tags: classify the best suited one from a list of categories (scam, hack, fraud, breach, leak) or other
 - entities: change the field contents to a suitable title of the event, based on eventSummary
+- source: take the link after Sources: in eventSummary and put in this field. remove the link and Sources: from eventSummary field and do not otherwise change eventSummary
 
 Also provide:
 - overallDayThreatScore: number 0-100
-- dailyBrief: short summary (1 paragraph) describing the events, trends, and top alerts
+- dailyBrief: short insightful summary  describing the events, trends, and top alerts
 
 Return the full output as a single JSON object like this:
 
 {
   "events": [
-    { "timestamp": "...", "entities": "...", "eventSummary": "...", "severity": "...", "tags": ["..."] },
+    { "timestamp": "...", "entities": "...", "eventSummary": "...", "severity": "...", "tags": "...", source: "..." },
     ...
   ],
   "overallDayThreatScore": 0-100,
