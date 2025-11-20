@@ -1,3 +1,7 @@
+# CurrentThreat - AI Product
+An AI-powered product made from the Product Kit Template using CPW API.
+
+
 # Product Kit Template
 
 Auto-fetch data from CPW API and build your product on top.
