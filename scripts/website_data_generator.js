@@ -7,10 +7,16 @@ const model = "openai/gpt-4.1";
 
 const client = new OpenAI({ baseURL: endpoint, apiKey: token });
 
+// Fixed capitalization function that handles both arrays and strings
 function capitalizeTags(tags) {
   if (!tags) return ["Other"];
-  return tags.map(tag => 
-    tag.split(' ')
+  
+  // Convert to array if it's a string
+  const tagsArray = Array.isArray(tags) ? tags : [tags];
+  
+  return tagsArray.map(tag => 
+    tag.toString()
+       .split(' ')
        .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
        .join(' ')
   );
@@ -40,8 +46,10 @@ async function main() {
   const classCount = {};
   for (const day of rollingData.days) {
     for (const ev of day.events) {
-      const tag = ev.tags || "other";
-      classCount[tag] = (classCount[tag] || 0) + 1;
+      const tags = Array.isArray(ev.tags) ? ev.tags : [ev.tags || "other"];
+      tags.forEach(tag => {
+        classCount[tag] = (classCount[tag] || 0) + 1;
+      });
     }
   }
 
@@ -60,7 +68,7 @@ async function main() {
     source: ev.source,
     time: ev.timestamp,
     severity: ev.severity,
-    classification: capitalizeTags(ev.tags || ["other"]) // Apply capitalization here
+    classification: capitalizeTags(ev.tags || "other") // Apply capitalization here
   }));
 
   // ------------------------------------------
