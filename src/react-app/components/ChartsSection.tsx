@@ -120,7 +120,7 @@ export default function ChartsSection({ eventFrequency, classificationDistributi
     Built by <span className="text-green-300">Vera M</span>
   </div>
 </div>
-
+</div> 
     </section>
   );
 }
