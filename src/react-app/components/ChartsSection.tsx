@@ -112,11 +112,15 @@ export default function ChartsSection({ eventFrequency, classificationDistributi
           </div>
         </div>
 
-        <div className="mt-12 text-center text-green-500/40 font-mono text-xs">
-          <div>[ END OF REPORT ]</div>
-          <div className="mt-2">SYSTEM STATUS: OPERATIONAL</div>
-        </div>
-      </div>
+        <div className="mt-12 text-center font-mono">
+  <div className="text-green-500/40 text-xs">[ END OF REPORT ]</div>
+  <div className="mt-2 text-green-500/40 text-xs">SYSTEM STATUS: OPERATIONAL</div>
+
+  <div className="mt-6 text-green-400 text-sm opacity-80 animate-pulse drop-shadow-[0_0_8px_rgba(0,255,140,0.7)]">
+    Built by <span className="text-green-300">Vera M</span>
+  </div>
+</div>
+
     </section>
   );
 }
