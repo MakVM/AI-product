@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "timestamp": "2025-11-21T09:37:20.000Z",
+      "entities": "Labour Data Exfiltration and Legal File Breach",
+      "eventSummary": "Attackers allegedly exfiltrated 200 GB of data, including labour inspection reports, complaints and legal dispute files, and personal email information.",
+      "severity": "High",
+      "tags": "breach",
+      "source": "https://bsky.app/profile/hackmanac.com/post/3m64xmmrtc72x"
+    },
+    {
+      "timestamp": "2025-11-20T00:00:00.000Z",
+      "entities": "Oracle E-Business Suite Zero-day Exploit By Cl0p Group",
+      "eventSummary": "The Cl0p hacking group has added 29 more alleged victims to its breach campaign exploiting a Zero-day vulnerability in Oracle E-Business Suite.",
+      "severity": "High",
+      "tags": "hack",
+      "source": "https://bsky.app/profile/hackmanac.com/post/3m64skf64h42x"
+    }
+  ],
+  "overallDayThreatScore": 90,
+  "dailyBrief": "Two significant cyber events were reported: a major data exfiltration targeting sensitive labour and legal files, and continued exploitation of a Zero-day vulnerability in Oracle E-Business Suite by the Cl0p group, expanding their victim count. Both incidents highlight sustained, high-severity threats involving large-scale breaches and sophisticated hacking campaigns. Organizations should prioritize patching and enhance data protection measures given these active risks."
+}

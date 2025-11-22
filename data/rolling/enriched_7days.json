@@ -1,22 +1,7 @@
 {
-  "startDate": "2025-11-15",
-  "endDate": "2025-11-21",
+  "startDate": "2025-11-16",
+  "endDate": "2025-11-22",
   "days": [
-    {
-      "date": "2025-11-15",
-      "events": [
-        {
-          "timestamp": "2025-11-14T07:52:59.000Z",
-          "entities": "ReportCyber cryptocurrency scam targeting Australians",
-          "eventSummary": "Scammers are exploiting ReportCyber to trick Australians into handing over crypto.",
-          "severity": "High",
-          "tags": "scam",
-          "source": "https://cryptopanic.com/news/27047079/Scammers-Exploit-ReportCyber-to-Trick-Australians-into-Handing-Over-Crypto"
-        }
-      ],
-      "overallDayThreatScore": 80,
-      "dailyBrief": "A high-severity scam was reported, with cybercriminals leveraging the ReportCyber platform to deceive Australians into transferring cryptocurrency. The incident highlights ongoing threats targeting financial assets via social engineering and trusted reporting channels. Increased vigilance and public awareness are advised."
-    },
     {
       "date": "2025-11-16",
       "events": [
@@ -218,6 +203,29 @@
       ],
       "overallDayThreatScore": 87,
       "dailyBrief": "November 20th, 2025 witnessed a series of severe cyber incidents, with multiple high-impact data breaches and exploitation events targeting major organizations and platforms. Salesforce and Beckett Collectibles suffered significant data exposure, while NAFFCO INC faced a large-scale ransomware attack. Notably, the GANA Payment crypto exploit resulted in multimillion-dollar losses and complex laundering activity. Microsoft’s recent update introduced a new infostealer attack vector, highlighting persistent threats to core infrastructure. The day’s events underscore a pronounced trend toward targeted breaches, ransomware, and cryptocurrency exploits, elevating the cyber risk landscape."
+    },
+    {
+      "date": "2025-11-22",
+      "events": [
+        {
+          "timestamp": "2025-11-21T09:37:20.000Z",
+          "entities": "Labour Data Exfiltration and Legal File Breach",
+          "eventSummary": "Attackers allegedly exfiltrated 200 GB of data, including labour inspection reports, complaints and legal dispute files, and personal email information.",
+          "severity": "High",
+          "tags": "breach",
+          "source": "https://bsky.app/profile/hackmanac.com/post/3m64xmmrtc72x"
+        },
+        {
+          "timestamp": "2025-11-20T00:00:00.000Z",
+          "entities": "Oracle E-Business Suite Zero-day Exploit By Cl0p Group",
+          "eventSummary": "The Cl0p hacking group has added 29 more alleged victims to its breach campaign exploiting a Zero-day vulnerability in Oracle E-Business Suite.",
+          "severity": "High",
+          "tags": "hack",
+          "source": "https://bsky.app/profile/hackmanac.com/post/3m64skf64h42x"
+        }
+      ],
+      "overallDayThreatScore": 90,
+      "dailyBrief": "Two significant cyber events were reported: a major data exfiltration targeting sensitive labour and legal files, and continued exploitation of a Zero-day vulnerability in Oracle E-Business Suite by the Cl0p group, expanding their victim count. Both incidents highlight sustained, high-severity threats involving large-scale breaches and sophisticated hacking campaigns. Organizations should prioritize patching and enhance data protection measures given these active risks."
     }
   ]
 }

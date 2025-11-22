@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2025-11-21T09:37:20.000Z",
+    "entities": "report",
+    "topic": "attack hack exploit scam fraud breach leak",
+    "eventSummary": "Attackers allegedly exfiltrated 200 GB of data, including labour inspection reports, complaints and legal dispute files, and personal email information.Sources: - https://bsky.app/profile/hackmanac.com/post/3m64xmmrtc72x"
+  },
+  {
+    "timestamp": "2025-11-20T00:00:00.000Z",
+    "entities": "Oracle E-Business Suite",
+    "topic": "attack hack exploit scam fraud breach leak",
+    "eventSummary": "The Cl0p hacking group has added 29 more alleged victims to its breach campaign exploiting a Zero-day vulnerability in Oracle E-Business Suite.Sources: - https://bsky.app/profile/hackmanac.com/post/3m64skf64h42x"
+  }
+]
